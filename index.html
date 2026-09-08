@@ -1,11 +1,365 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>GameZone — Gaming Platform</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
 </head>
+
 <body>
-    <h1>salom</h1>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#" class="logo">
+                <span>G</span>AMEZONE
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Bosh sahifa</a></li>
+                <li><a href="#games">O‘yinlar</a></li>
+                <li><a href="#news">Yangiliklar</a></li>
+                <li><a href="#about">Biz haqimizda</a></li>
+            </ul>
+
+            <button class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <button class="login-btn">
+                Kirish
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content container">
+
+                <div class="hero-text">
+
+                    <p class="small-title">
+                        <i class="fa-solid fa-gamepad"></i>
+                        GAMING WORLD
+                    </p>
+
+                    <h1>
+                        O‘YINLAR
+                        <span>OLAMIGA</span>
+                        XUSH KELIBSIZ
+                    </h1>
+
+                    <p class="hero-description">
+                        Eng so‘nggi o‘yinlar, gaming yangiliklari,
+                        turnirlar va gamerlar uchun ajoyib imkoniyatlar
+                        bir joyda.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#games" class="primary-btn">
+                            O‘yinlarni ko‘rish
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#news" class="secondary-btn">
+                            Yangiliklar
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-glow"></div>
+
+        </section>
+
+
+        <!-- STATS -->
+        <section class="stats">
+
+            <div class="container stats-grid">
+
+                <div class="stat">
+                    <i class="fa-solid fa-users"></i>
+                    <div>
+                        <h3>250K+</h3>
+                        <p>Gamerlar</p>
+                    </div>
+                </div>
+
+                <div class="stat">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <div>
+                        <h3>500+</h3>
+                        <p>O‘yinlar</p>
+                    </div>
+                </div>
+
+                <div class="stat">
+                    <i class="fa-solid fa-trophy"></i>
+                    <div>
+                        <h3>120+</h3>
+                        <p>Turnirlar</p>
+                    </div>
+                </div>
+
+                <div class="stat">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <div>
+                        <h3>80+</h3>
+                        <p>Mamlakatlar</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GAMES -->
+        <section class="games section" id="games">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <p>ENG MASHHUR</p>
+                    <h2>O‘YINLAR</h2>
+                </div>
+
+                <div class="games-grid">
+
+                    <article class="game-card">
+
+                        <div class="game-image game-1">
+                            <span class="game-tag">ACTION</span>
+                        </div>
+
+                        <div class="game-info">
+                            <h3>Cyber Strike</h3>
+                            <p>Future Combat</p>
+
+                            <div class="game-bottom">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    4.9
+                                </span>
+
+                                <button class="play-btn">
+                                    PLAY
+                                </button>
+                            </div>
+                        </div>
+
+                    </article>
+
+
+                    <article class="game-card">
+
+                        <div class="game-image game-2">
+                            <span class="game-tag">RACING</span>
+                        </div>
+
+                        <div class="game-info">
+                            <h3>Night Racer</h3>
+                            <p>Street Racing</p>
+
+                            <div class="game-bottom">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    4.8
+                                </span>
+
+                                <button class="play-btn">
+                                    PLAY
+                                </button>
+                            </div>
+                        </div>
+
+                    </article>
+
+
+                    <article class="game-card">
+
+                        <div class="game-image game-3">
+                            <span class="game-tag">FPS</span>
+                        </div>
+
+                        <div class="game-info">
+                            <h3>Battle Force</h3>
+                            <p>Online Shooter</p>
+
+                            <div class="game-bottom">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    4.7
+                                </span>
+
+                                <button class="play-btn">
+                                    PLAY
+                                </button>
+                            </div>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- NEWS -->
+        <section class="news section" id="news">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <p>SO‘NGGI</p>
+                    <h2>YANGILIKLAR</h2>
+                </div>
+
+                <div class="news-grid">
+
+                    <article class="news-card">
+
+                        <div class="news-number">01</div>
+
+                        <div>
+                            <span>08 SENTYABR, 2026</span>
+                            <h3>Yangi gaming turniriga ro‘yxatdan o‘tish boshlandi!</h3>
+                            <p>
+                                Eng kuchli gamerlar ishtirokidagi katta
+                                turnirda o‘z kuchingizni sinab ko‘ring.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <article class="news-card">
+
+                        <div class="news-number">02</div>
+
+                        <div>
+                            <span>06 SENTYABR, 2026</span>
+                            <h3>Cyber Strike uchun yangi update chiqdi</h3>
+                            <p>
+                                Yangi xaritalar, qurollar va qiziqarli
+                                imkoniyatlar qo‘shildi.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <article class="news-card">
+
+                        <div class="news-number">03</div>
+
+                        <div>
+                            <span>03 SENTYABR, 2026</span>
+                            <h3>GameZone yangi mavsumni boshladi</h3>
+                            <p>
+                                Yangi reyting tizimi va ko‘plab sovrinlar
+                                sizni kutmoqda.
+                            </p>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta" id="about">
+
+            <div class="container cta-content">
+
+                <p>GAMEZONE COMMUNITY</p>
+
+                <h2>
+                    GAMERLAR SAFIGA
+                    <span>QO‘SHILING!</span>
+                </h2>
+
+                <button class="primary-btn join-btn">
+                    Hoziroq qo‘shilish
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <a href="#" class="logo">
+                    <span>G</span>AMEZONE
+                </a>
+
+                <p>
+                    Gamerlar uchun yaratilgan
+                    zamonaviy platforma.
+                </p>
+            </div>
+
+            <div class="socials">
+
+                <a href="#">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 GameZone. Barcha huquqlar himoyalangan.
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
 </html>
